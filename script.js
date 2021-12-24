@@ -23,13 +23,49 @@
 // var year = 2020 - age;
 // console.log(year);
 
-var year = prompt("What year Kyrgyzstan gained independence?");
-if (year > 1991) {
-  alert("This year is after independence year.");
+// var year = prompt("What year Kyrgyzstan gained independence?");
+// if (year > 1991) {
+//   alert("This year is after independence year.");
+// }
+// else if (year === "1991") {
+//   alert("You got it!");
+// }
+// else {
+//   alert("This year is before independence year.");
+// }
+
+// var currentNumber = 0;
+// var stopNumber = 10;
+
+// if (currentNumber < stopNumber) {
+//   currentNumber = currentNumber + 1;
+// }
+
+//  var currentNumber = 0;
+//  var stopNumber = 150;
+
+//  while (currentNumber < stopNumber)  { //пока
+//    currentNumber = currentNumber + 1;
+//    console.log(currentNumber);
+//  }
+
+//  for (var i=0; i<10; i++)  { 
+//    console.log(i);
+//  }
+
+var city = prompt("What is the country you want know capital of?");
+if (country === "USA") {
+  alert("Washington");
 }
-else if (year === "1991") {
-  alert("You got it!");
+else if (country === "Kyrgyzstan") {
+  alert("Bishkek");
+}
+else if (country === "Kazahstan") {
+  alert("Nur Sultan");
 }
 else {
-  alert("This year is before independence year.");
+  alert("We don't know that country");
 }
+
+
+
