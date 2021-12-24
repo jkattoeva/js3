@@ -19,3 +19,8 @@
 // console.log(example1);
 // console.log(example2);
 
+// var age = prompt("How old are you?");
+// var year = 2020 - age;
+// console.log(year);
+
+alert();
